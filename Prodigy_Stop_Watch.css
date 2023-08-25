@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+}
+
+.stopWatchSubContainer {
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3897.jpg');
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.stopWatchContainer {
+    height: 100vh;
+}
+
+.timer {
+    font-size: 32px;
+    background-color: white;
+    color: black;
+
+
+}
+
+button {
+    border-radius: 2vw;
+    font-weight: bold;
+    margin: 2vw;
+}
+
+.time {
+    font-size: 25px;
+}
+
+.btn1 {
+    background-color: #fa8ea6;
+    border: none;
+}
+
+.btn3 {
+    background-color: #b6d1fc;
+    border: none;
+}
+
+.btn2 {
+    background-color: #a6f7c2;
+    border: none;
+}
+
+@media screen and (max-width:576px) {
+    .stopWatchSubContainer {
+        height: 65vh !important;
+    }
+
+    .timer {
+        margin-top: 8% !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    button {
+        border-radius: 5vw;
+        width: 20vw;
+    }
+
+    .stopWatchSubContainer {
+        height: 30vh !important;
+    }
+
+    .timer {
+        margin-top: 8%;
+    }
+}
+
+@media (min-width:769px) {
+    button {
+        width: 12vw;
+    }
+
+    .timer {
+        margin-top: 5%;
+    }
+
+    .stopWatchContainer {
+        padding: 20vw;
+    }
+
+    .stopWatchSubContainer {
+        height: 25vh;
+    }
+}
